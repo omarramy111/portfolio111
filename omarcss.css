@@ -1,0 +1,46 @@
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+a{color: white;text-decoration:none ;}
+body{background-image: linear-gradient(#18196c,#000);
+height: 100vh;display: flex;justify-content: center; }
+
+
+.container{background-image: linear-gradient(to right ,
+     #000000b7, #00000073), url(img/desktop-wallpaper-bmw-320i-black-rims-140-m5-logo.jpg) ; 
+    height: 640px; width: 90%;background-size: cover; border-radius: 20px;}
+
+
+    .container:hover{background-image: linear-gradient(to right ,
+        #000000b7,transparent), url(img/desktop-wallpaper-bmw-320i-black-rims-140-m5-logo.jpg) ; 
+       height: 640px; width: 90%;background-size: cover; }
+
+       header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+       }
+       .logo{font-size: 20px;
+    text-transform: uppercase;padding: 20px;
+}
+ul{ width: 60%;list-style: none;display: flex;
+justify-content: space-evenly;}
+ul a{
+    border-bottom: 2px solid transparent;transition: 1s;
+}
+ul a:hover{border-bottom-color: white;}
+.content{
+width: 50% ;margin-top: 20px ;
+padding: 10px;
+color: white;}
+
+.content h4{ font-size: 70px ; text-transform: uppercase;}
+
+.content p{ letter-spacing: 4px;
+width: 350px; padding: 0px 0;}
+.logo{padding: 30%, 30%,40%; font-size: 40px;}
+
